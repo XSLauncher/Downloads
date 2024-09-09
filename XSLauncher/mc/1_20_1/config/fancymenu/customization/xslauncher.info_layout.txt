@@ -1,0 +1,99 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = xslauncher.info
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1709389163650
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:c6a1fd02-c8ee-49fe-89c1-7d9cb1c258fa-1709389103428] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 3175875d-a4ac-4fc9-b331-7dc38aa2bae2-1709317965317
+  [executable_action_instance:0eb53cbb-93c7-4656-a321-477b1ea22443-1709318234160][action_type:closegui] = 
+  [executable_block:3175875d-a4ac-4fc9-b331-7dc38aa2bae2-1709317965317][type:generic] = [executables:0eb53cbb-93c7-4656-a321-477b1ea22443-1709318234160;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = <- Powrót
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 4f136cb6-f19a-44d9-bd0b-e9e6e3216361-1709317965317
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-left
+  x = -9
+  y = -9
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = d98656f7-691a-43c9-89b8-61644ff578a6-1709317965317
+  [loading_requirement_container_meta:d98656f7-691a-43c9-89b8-61644ff578a6-1709317965317] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = # Co nowego? (XSLauncher 0.78)%n%### Główne%n%- nowe GUI%n%- skiny dla nonpremium%n%%n%### Dodatki%n%- przycisk do ragequit w menu gry
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 734e3bb4-e5dd-4ce3-b97d-d64f23a7ca7b-1709318020646
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = -64
+  y = -24
+  width = 636
+  height = 312
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 1597ca99-c1d9-4f59-b43b-79e36361ed54-1709318020646
+  [loading_requirement_container_meta:1597ca99-c1d9-4f59-b43b-79e36361ed54-1709318020646] = [groups:][instances:]
+}
+

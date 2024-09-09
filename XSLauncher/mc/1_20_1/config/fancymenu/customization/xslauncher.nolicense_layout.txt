@@ -1,0 +1,140 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = xslauncher.nolicense
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1721330014542
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:5358a5ac-bfe1-4cb0-9be1-5400d02f8af6-1721329802499] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  interactable = true
+  source = XSLauncher - Brak licencji!
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = false
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 79ad48fb-0a05-4138-87ce-b86395ef3f3e-1721329809280
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -73
+  y = -134
+  width = 146
+  height = 16
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = ccdfe2b8-709b-4e8b-b935-c3f751fcf24b-1721329809280
+  [loading_requirement_container_meta:ccdfe2b8-709b-4e8b-b935-c3f751fcf24b-1721329809280] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = Twój czas licencji się skończył, lub nie masz połączenia z internetem.%n%Status internetu: &aOK%n%Licencja: &c404
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 3559af6b-fcde-4687-8b43-f0f1747c21c1-1721329851763
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -152
+  y = -119
+  width = 304
+  height = 101
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e13b2cfb-7d4b-4d9b-b770-2f5342367492-1721329851763
+  [loading_requirement_container_meta:e13b2cfb-7d4b-4d9b-b770-2f5342367492-1721329851763] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = c91a064c-6aaf-4164-9df0-4185d92bcbac-1721329961667
+  [executable_block:c91a064c-6aaf-4164-9df0-4185d92bcbac-1721329961667][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Opuść grę
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 703788dc-5868-449a-bd0a-fd4a6e956c53-1721329961667
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -107
+  y = -12
+  width = 214
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = cae10df6-8292-4989-89d8-9ed899c82f6f-1721329961667
+  [loading_requirement_container_meta:cae10df6-8292-4989-89d8-9ed899c82f6f-1721329961667] = [groups:][instances:]
+}
+

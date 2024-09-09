@@ -1,0 +1,28 @@
+{
+  "version": "14.20",
+  "buildNumber": 27,
+  "loadlist": [
+    {
+      "name": "XSLauncher",
+      "type": "CustomSkinAPI",
+      "root": "http://sf4faf5.ct8.pl/xslauncher/csl/main/"
+    },
+    {
+      "name": "Mojang",
+      "type": "MojangAPI",
+      "apiRoot": "https://api.mojang.com/",
+      "sessionRoot": "https://sessionserver.mojang.com/"
+    }
+  ],
+  "enableDynamicSkull": true,
+  "enableTransparentSkin": false,
+  "forceLoadAllTextures": true,
+  "enableCape": true,
+  "threadPoolSize": 8,
+  "enableLogStdOut": false,
+  "cacheExpiry": 15,
+  "forceUpdateSkull": false,
+  "enableLocalProfileCache": false,
+  "enableCacheAutoClean": true,
+  "forceDisableCache": true
+}
