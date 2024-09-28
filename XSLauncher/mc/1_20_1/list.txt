@@ -1,3 +1,4 @@
+list.txt|f70d94cf23673cff0475d320278c2910|385901
 .fabric\processedMods\advanced_runtime_resource_pack-0.6.7-9cb5df3ad7ce5a17.jar|2785545a4b01559301b4b0b8ac386751|158777
 .fabric\processedMods\bendy-lib-4.0.0-d5b011ce22a26d9f.jar|ceb8bba969ac5178cebbdcac6e9863be|49297
 .fabric\processedMods\caffeineconfig-1.3.0+1.17-acfd3cc068e2f229.jar|bd2801f4450ca88ddf8515e96a4b5673|15346
@@ -3701,7 +3702,6 @@ assets\objects\ff\ffcf157d407f03a5ec040e0fabea90948b7e9125|2845be51c3fe08d062c49
 assets\objects\ff\ffdf5853eb66e54a0a1a547443f591bdf18069b9|88764ba2db87a8b0ffbfaee005f92980|14193
 assets\objects\ff\ffeb49a644259b2b6ed030ea27f097b22c2cc1a5|8b43bd9b93264cf70ec805bff6b16dc6|21876
 config\customwindowtitle-client.toml|59fa6189309ed6dde9ee7abb87e5512e|34
-config\featuredservers.json|e9a5306d051262269e06ed09f447b52a|154
 config\rebrand.toml|a05fec0fdca3c1fddf693a2352530096|64
 config\fancymenu\customizablemenus.txt|250581169425b0048093572c21c08427|663
 config\fancymenu\custom_gui_screens.txt|0cca89d69eb3f40dea7b259b1fa29e88|417
@@ -3836,7 +3836,6 @@ mods\fabricskyboxes.jar|a3e21b6bb94f98d3b5d29c77d1ad703a|207272
 mods\fabrishot.jar|1d226c57b74a130c24fffa181dab759c|44182
 mods\fadeless.jar|1b17811bcc7052b8fc38a4c44bcf74a9|7876
 mods\fastquit.jar|a1b2847e248207157f5bbe7285b41927|79306
-mods\featuredservers.jar|4a4c6d87783172ee2a736546d32f1e17|18326
 mods\ferritecore.jar|67ce14ce1a5eb1637c1ff31ac2a0b2a0|124927
 mods\fm.jar|6a43c0d357b1cebdb4cb3b6419a0775d|2605115
 mods\fsb.jar|87fa8fe095bad30e9ca15ceb660b5e45|49495
