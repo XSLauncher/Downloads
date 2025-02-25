@@ -1,6 +1,17 @@
-- name: Discord notification
-  env:
-    DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-  uses: Ilshidur/action-discord@master
-  with:
-    args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
+name: Notify Discord on Push
+
+on:
+  push:
+    branches:
+      - main  # Adjust if needed
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send message to Discord
+        uses: Ilshidur/action-discord@master
+        with:
+          args: "**[${{ github.repository }}:${{ github.ref_name }}] ${{ github.event.commits | size }} new commit(s)**\n\n${{ github.event.head_commit.id }} ${{ github.event.head_commit.message }} - ${{ github.actor }}"
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
