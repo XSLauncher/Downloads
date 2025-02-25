@@ -13,7 +13,7 @@ jobs:
         uses: Ilshidur/action-discord@master
         with:
           args: |
-            **[${{ github.repository }}:${{ github.ref_name }}] ${{ github.event.commits ? github.event.commits.length : 1 }} new commit(s)**
+            **[${{ github.repository }}:${{ github.ref_name }}] ${{ github.event.commits && github.event.commits.length || 1 }} new commit(s)**
 
             [\`${{ github.event.head_commit.id.substr(0, 7) }}\`] ${{ github.event.head_commit.message }} - ${{ github.actor }}
             <${{ github.event.head_commit.url }}>
