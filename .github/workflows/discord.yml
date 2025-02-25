@@ -3,7 +3,7 @@ name: Notify Discord on Push
 on:
   push:
     branches:
-      - main  # Change as needed
+      - main  # Adjust as needed
 
 jobs:
   notify:
@@ -12,6 +12,6 @@ jobs:
       - name: Send message to Discord
         uses: Ilshidur/action-discord@master
         with:
-          args: "**[${{ github.repository }}:${{ github.ref_name }}] ${{ toJson(github.event.commits) }}" # Debug output
+          args: "**[${{ github.repository }}:${{ github.ref_name }}] ${{ github.event.commits && github.event.commits[0] && format('{0}', github.event.commits) || '1' }} new commit(s)**\n\n[`${{ github.event.head_commit.id.substr(0, 7) }}`] ${{ github.event.head_commit.message }} - ${{ github.actor }}\n<${{ github.event.head_commit.url }}>"
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
